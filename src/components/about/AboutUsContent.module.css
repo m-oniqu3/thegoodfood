@@ -1,0 +1,18 @@
+.about-us-content figure {
+  width: 100%;
+}
+
+.about-us-content figure img {
+  width: 100%;
+  position: relative;
+}
+
+.about-us-content article {
+  padding: 2rem 0;
+}
+.about-us-content article figure {
+  position: relative;
+  left: -50px;
+  margin: 1rem 0;
+  width: 100vw;
+}
