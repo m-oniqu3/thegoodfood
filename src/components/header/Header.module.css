@@ -1,0 +1,37 @@
+.header {
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1473093295043-cdd812d0e601?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  background-position: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-intro {
+  padding: 10rem 0 15rem;
+  width: 85%;
+}
+
+.header-intro h1,
+.header-intro span {
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.header-intro h1 {
+  letter-spacing: 1px;
+}
+
+.header-intro span {
+  font-size: 5.5rem;
+  color: var(--red);
+  font-weight: 900;
+}
+
+.header-intro p {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 1rem 0;
+  line-height: 160%;
+}

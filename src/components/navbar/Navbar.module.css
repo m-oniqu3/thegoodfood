@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navbar p {
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.8rem;
+  color: var(--green);
+}
