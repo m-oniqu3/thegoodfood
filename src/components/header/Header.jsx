@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "./Header.module.css";
 import Navbar from "../navbar/Navbar";
-import Wrapper from "../Wrapper";
+import Wrapper from "../helpers/Wrapper";
 import Button from "../button/Button";
 
 const Header = () => {

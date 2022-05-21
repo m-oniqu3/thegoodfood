@@ -5,7 +5,6 @@ const Heading = (props) => {
   return (
     <h1 className={`${styled[`${props.className}`]} ${styled.heading}`}>
       {props.text}
-      <span> {props.highlight}</span>
     </h1>
   );
 };

@@ -10,3 +10,10 @@
   --red: #ff0000;
   --green: #84b121;
 }
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 160.5%;
+  text-transform: capitalize;
+  padding: 1rem 0;
+}

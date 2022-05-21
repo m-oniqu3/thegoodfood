@@ -1,11 +1,13 @@
 .heading,
 .heading span {
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .heading span {
   color: var(--red);
+  font-weight: bold;
 }
 .heading-lg,
 .heading-lg span {
@@ -14,6 +16,5 @@
 
 .heading-md,
 .heading-md span {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 3rem;
 }
