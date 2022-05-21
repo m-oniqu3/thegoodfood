@@ -5,7 +5,7 @@ const Background = (props) => {
   const background = {
     backgroundImage: `url(${greybg})`,
     backgroundPosition: "center",
-    height: "100vh",
+    height: "100%",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
   };
