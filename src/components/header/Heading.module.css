@@ -10,9 +10,14 @@
   color: var(--red);
   font-weight: bold;
 }
-.heading-lg,
-.heading-lg span {
-  font-size: 2.8rem;
+.heading-sml,
+.heading-sml span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.heading-sml span {
+  color: var(--green);
 }
 
 .heading-md,
