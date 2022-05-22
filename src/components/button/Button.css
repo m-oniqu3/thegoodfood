@@ -30,8 +30,8 @@
   transform: rotate(20deg);
 }
 .flash-slide:hover::before {
-  left: 190px;
-  transition: all 0.9s ease 0s;
+  left: 290px;
+  transition: all 0.5s ease 0s;
 }
 .flash-slide--green {
   background: var(--green);

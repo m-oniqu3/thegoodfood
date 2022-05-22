@@ -1,0 +1,43 @@
+.tgif-bg {
+  background-image: url("https://images.unsplash.com/photo-1562059390-a761a084768e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.tgif-bg figure {
+  width: 100%;
+  position: relative;
+  left: -80px;
+  top: 20px;
+}
+
+.tgif-bg figure img {
+  width: 100%;
+}
+
+.tgif-info {
+  z-index: 10;
+  position: absolute;
+  top: 50px;
+  width: 55%;
+}
+
+.tgif-info .heading,
+.tgif-info .heading span {
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 100%;
+  font-size: 2rem;
+}
+
+.tgif-info .heading span {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: var(--red);
+}
