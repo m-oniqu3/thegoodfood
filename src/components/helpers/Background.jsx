@@ -1,9 +1,8 @@
 import React from "react";
-import greybg from "../../images/greybg.png";
 
 const Background = (props) => {
   const background = {
-    backgroundImage: `url(${greybg})`,
+    backgroundImage: `url(${props.url})`,
     backgroundPosition: "center",
     height: "100%",
     backgroundSize: "cover",
