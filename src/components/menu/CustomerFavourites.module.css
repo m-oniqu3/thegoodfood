@@ -1,9 +1,9 @@
-.intro {
-  text-align: center;
+.favourites {
+  padding: 2rem 0;
 }
 
-.intro h1 span {
-  color: var(--red);
+.intro {
+  text-align: center;
 }
 
 .faves {

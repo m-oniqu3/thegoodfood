@@ -31,7 +31,7 @@ const CustomerFavourites = () => {
     );
   });
   return (
-    <section>
+    <section className={styled.favourites}>
       <Wrapper>
         <article className={styled.intro}>
           <Heading text={text} className="heading-sml" />
