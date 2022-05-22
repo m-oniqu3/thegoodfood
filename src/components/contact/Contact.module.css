@@ -1,0 +1,27 @@
+.contact {
+  padding: 2rem 0;
+}
+
+.contact figure {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.contact figure img {
+  width: 100%;
+}
+
+.form label {
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.form input,
+textarea {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(7px);
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
