@@ -1,0 +1,36 @@
+.footer {
+  background-image: url("../../images/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 2rem 0;
+  color: white;
+}
+
+.logo {
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0.5rem 0 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 70%;
+}
