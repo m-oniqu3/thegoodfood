@@ -8,7 +8,9 @@
 
 :root {
   --red: #ff0000;
+  --light-green: rgba(211, 239, 193, 0.7);
   --green: #84b121;
+  --dark-green: #425e06;
 }
 
 .paragraph {
