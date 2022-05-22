@@ -1,0 +1,19 @@
+.download {
+  padding-bottom: 2rem;
+}
+
+.download figure {
+  width: 100%;
+  overflow: hidden;
+  padding: 4rem 0;
+  margin: 3rem 0;
+}
+
+.download figure img {
+  width: 100%;
+  transform: scale(1.4);
+}
+
+.download-info :first-child {
+  padding: 1rem 0;
+}
