@@ -1,5 +1,5 @@
 .download {
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .download figure {
@@ -11,7 +11,10 @@
 
 .download figure img {
   width: 100%;
-  transform: scale(1.4);
+  transform: scale(1.3);
+}
+.download-info {
+  text-align: center;
 }
 
 .download-info :first-child {

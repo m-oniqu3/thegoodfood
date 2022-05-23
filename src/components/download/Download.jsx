@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "./Download.module.css";
 import phone from "../../images/phone.png";
-import Button from "../button/Button";
+import { ImAndroid, ImAppleinc } from "react-icons/im";
 import Heading from "../header/Heading";
 import Wrapper from "../helpers/Wrapper";
 
@@ -32,8 +32,9 @@ const Download = () => {
             neque rerum necessitatibus blanditiis nulla provident consequatur,
             vel expedita fuga non!
           </p>
-          <Button>Download for android</Button>
-          <Button>Download for apple</Button>
+          <ImAndroid size="30px" color="lightgrey" />
+          &nbsp; &nbsp;&nbsp;
+          <ImAppleinc size="30px" color="lightgrey" />
         </article>
       </Wrapper>
     </section>

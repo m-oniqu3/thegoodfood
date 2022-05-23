@@ -12,18 +12,19 @@
 .tgif-bg figure {
   width: 100%;
   position: relative;
-  left: -80px;
-  top: 20px;
+  left: -20%;
+  top: 10%;
 }
 
 .tgif-bg figure img {
   width: 100%;
+  transform: scale(1.2);
 }
 
 .tgif-info {
   z-index: 10;
   position: absolute;
-  top: 50px;
+  top: 15%;
   width: 55%;
 }
 

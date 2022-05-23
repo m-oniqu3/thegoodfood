@@ -39,7 +39,7 @@ const Contact = () => {
 
             <label htmlFor="message">Your Message</label>
             <textarea name="message" rows="5" cols="20" />
-
+            <br />
             <Button>Send</Button>
           </form>
         </Wrapper>
