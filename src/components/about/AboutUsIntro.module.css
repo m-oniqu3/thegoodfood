@@ -1,7 +1,12 @@
+.about-us-intro {
+  padding: 2rem 0;
+}
+
 .about-us-intro figure {
   width: 100%;
 }
 
 .about-us-intro figure img {
   width: 100%;
+  padding: 2rem 0;
 }

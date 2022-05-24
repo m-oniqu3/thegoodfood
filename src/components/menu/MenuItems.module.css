@@ -1,0 +1,48 @@
+.menu {
+  padding: 1rem 0;
+}
+
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.courses * {
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 2px solid var(--red);
+}
+
+.meal-details {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  width: 100%;
+  /* gap: 1rem; */
+  margin: 1rem 0;
+}
+
+.meal-info {
+  text-transform: uppercase;
+}
+
+.meal-info b {
+  letter-spacing: 1px;
+}
+
+.meal-info small {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.price {
+  margin-left: auto;
+}

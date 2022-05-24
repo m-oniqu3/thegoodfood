@@ -1,3 +1,4 @@
+//array of objects with meal data
 export const meals = [
   {
     id: 1,
@@ -5,7 +6,7 @@ export const meals = [
     description:
       "A twist on our National dish with spicy scotch bonnet-soy dipping sauce.",
     price: 2800,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 2,
@@ -13,7 +14,7 @@ export const meals = [
     description:
       "Deep fried mozzarella cheese sticks with bread crumbs, eggs, garlic salt.",
     price: 1300,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 3,
@@ -21,29 +22,29 @@ export const meals = [
     description:
       "Light, buttery, garlic-y, and oh so delicious dipping sticks.",
     price: 1000,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 4,
     name: "Garden Salad",
     description: "Lettuce, tomatoes, sweet pepper & shredded carrot..",
     price: 800,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 5,
     name: "Soup of the Day",
     description: "Made fresh daily. Ask your server for today's choice.",
     price: 1200,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 6,
     name: "Tacos",
     description:
-      "From classic tacos to burritos to our epic specialties and combos. Orders include 3 soft shell tacos with papaya salsa, smoked pepper mayo & fresh red cabbage slaw and spicy black beans",
+      "Our epic specialties. Orders include 3 soft shell tacos with papaya salsa, smoked pepper mayo & fresh red cabbage slaw and spicy black beans",
     price: 1800,
-    category: "starters",
+    course: "Starters",
   },
 
   {
@@ -52,7 +53,7 @@ export const meals = [
     description:
       "Our famous jerk chicken with spicy jerk sauce, cheddar cheese, lettuce, tomato & fried plantain. Served on a toasted Italian roll.",
     price: 1650,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 8,
@@ -60,14 +61,14 @@ export const meals = [
     description:
       "Deep fried and perfectly seasoned, served with a side of vegetables .",
     price: 2520,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 9,
     name: "Soup of the Day",
     description: "Made fresh daily. Ask your server for today's choice.",
     price: 1200,
-    category: "starters",
+    course: "Starters",
   },
   {
     id: 10,
@@ -75,7 +76,7 @@ export const meals = [
     description:
       "Made with our sweetest and rippest bananas. Served with a side of plantains",
     price: 1630,
-    category: "starters",
+    course: "Starters",
   },
 
   {
@@ -84,7 +85,7 @@ export const meals = [
     description:
       "Made with heavy cream, garlic, parmesan cheese, fettuccine noodles, and tender chicken breasts for a classic Italian meal",
     price: 2480,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 12,
@@ -92,7 +93,7 @@ export const meals = [
     description:
       "Thinly sliced beef grilled with onions, mushrooms, sweet peppers, spicy scotch bonnet peppers & melted cheddar cheese. Served on a roasted Italian roll.",
     price: 1200,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 13,
@@ -100,7 +101,7 @@ export const meals = [
     description:
       "Fresh juicy shrimp fried with coconot flakes then slow simmered with local seasonings, in a spicy West Indian style curry sauce.",
     price: 1630,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 14,
@@ -108,7 +109,7 @@ export const meals = [
     description:
       "A simple soy sauce and brown sugar marinade, with hints of lemon and garlic, are the perfect salty-sweet complement to rich salmon fillets.",
     price: 2150,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 15,
@@ -116,7 +117,7 @@ export const meals = [
     description:
       "Tasty ravioli recipe made with ricotta, cream cheese, mozzarella cheese, and provolone cheese. Served with marinara and pesto cream sauce.",
     price: 1700,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 16,
@@ -124,7 +125,7 @@ export const meals = [
     description:
       "A famous Jamaican dish. A spicy grilled-meat dish cooked to perfection with a blend of local seasonings. Paired with Jamaican rice and peas and fried ripe plantains.",
     price: 1950,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 17,
@@ -132,7 +133,7 @@ export const meals = [
     description:
       "A traditional Jamaican made with mutton that is infused with flavours of curry powder, chopped onion, escallion, garlic, ginger, thyme and scotch bonnet pepper.",
     price: 2360,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 18,
@@ -140,7 +141,7 @@ export const meals = [
     description:
       "The perfect Caribbean stew. Delicious and tender oxtail and butter beans that is cooked to perfection.",
     price: 1700,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 19,
@@ -148,7 +149,7 @@ export const meals = [
     description:
       "Tender Caribbean conch seasoned with Jamaican jerk spices & perfectly grilled. Served with tangy papaya salsa and crackers.",
     price: 3150,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 20,
@@ -156,7 +157,7 @@ export const meals = [
     description:
       "Lightly seasoned red snapper steamed with an assortment of bell peppers and onions with a side serving of bammy.",
     price: 1250,
-    category: "main dish",
+    course: "Main Dishes",
   },
   {
     id: 21,
@@ -164,7 +165,7 @@ export const meals = [
     description:
       "A classic Italian no-bake dessert made with layers of coffee-soaked ladyfingers and incredible mascarpone cream.",
     price: 1400,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 22,
@@ -172,14 +173,14 @@ export const meals = [
     description:
       "Rich layers of chocolate cake, dark chocolate cheesecake and creamy custard mousse.",
     price: 1150,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 23,
     name: "Ice Cream of the day",
     description: "Ask your server for today's choice.",
     price: 850,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 24,
@@ -187,7 +188,7 @@ export const meals = [
     description:
       "Simple, sweet, moist, flavorful, and topped with cream cheese frosting!",
     price: 1200,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 25,
@@ -195,7 +196,7 @@ export const meals = [
     description:
       "Made from soft pillowy dough, these sweet treats are then deep-fried and coated in sugar, before filling.",
     price: 1050,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 26,
@@ -203,43 +204,43 @@ export const meals = [
     description:
       "A rich, creamy texture and cherry topping for a showstopping dessert.",
     price: 1760,
-    category: "Desserts",
+    course: "Desserts",
   },
   {
     id: 27,
     name: "Beers",
     description: "Quench your thirst with any of our well chilled beers!",
     price: 500,
-    category: "Drinks",
+    course: "Drinks",
   },
   {
     id: 28,
     name: "Water",
     description: "Quench your thirst with a glass of chilled water!",
     price: 150,
-    category: "Drinks",
+    course: "Drinks",
   },
   {
     id: 29,
     name: "Sodas",
     description: "Quench your thirst with any of our chilled sodas!",
     price: 200,
-    category: "Drinks",
+    course: "Drinks",
   },
   {
     id: 30,
     name: "Piña Colada",
     description:
-      "A tropical blend of rich coconut cream, white rum and tangy pineapple – serve with an umbrella for kitsch appeal.",
+      "A tropical blend of rich coconut cream, white rum and tangy pineapple – serves with an umbrella for kitsch appeal.",
     price: 550,
-    category: "Drinks",
+    course: "Drinks",
   },
   {
     id: 31,
-    name: "Classic Strawberry Daiquiri",
+    name: "Strawberry Daiquiri",
     description: "A smooth blend of simple syrup, rum and lime juice.",
     price: 650,
-    category: "Drinks",
+    course: "Drinks",
   },
   {
     id: 32,
@@ -247,6 +248,6 @@ export const meals = [
     description:
       "Non-alcoholic drink with fresh fruit, mint, juice and lemonade, it's wonderfully refreshing.",
     price: 550,
-    category: "Drinks",
+    course: "Drinks",
   },
 ];
