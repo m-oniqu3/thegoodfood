@@ -8,11 +8,13 @@ const AboutUsIntro = () => {
   return (
     <section className={styled["about-us-intro"]}>
       <Wrapper>
-        <figure>
-          <img
-            src={squarePlate}
-            alt="Black plate with rice and shrimp and vegetables"
-          />
+        <div className={styled["intro-content"]}>
+          <figure>
+            <img
+              src={squarePlate}
+              alt="Black plate with rice and shrimp and vegetables"
+            />
+          </figure>
           <article>
             <Heading
               text={
@@ -34,7 +36,7 @@ const AboutUsIntro = () => {
               in sit sit faucibus. Tincidunt
             </p>
           </article>
-        </figure>
+        </div>
       </Wrapper>
     </section>
   );

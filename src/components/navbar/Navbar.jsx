@@ -35,10 +35,7 @@ const Navbar = () => {
 
       {/* show menu is showNav is true */}
       {showNav && (
-        <ul
-          className={styled.links}
-          onClick={() => setShowNav((showNav) => !showNav)}
-        >
+        <ul className={styled.links}>
           <li>
             <Link to="#home" smooth>
               Home

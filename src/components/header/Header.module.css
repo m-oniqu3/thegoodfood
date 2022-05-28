@@ -10,6 +10,7 @@
 .header-intro {
   padding: 10rem 0 15rem;
   width: 85%;
+  max-width: 300px;
 }
 
 .header-intro h1,
@@ -40,4 +41,23 @@
   text-transform: capitalize;
   margin: 1rem 0;
   line-height: 160%;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  .header-intro {
+    margin-left: auto;
+    width: 50%;
+    max-width: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .header-intro h1 {
+    font-size: 4rem;
+  }
+
+  .header-intro span {
+    font-size: 7rem;
+  }
 }

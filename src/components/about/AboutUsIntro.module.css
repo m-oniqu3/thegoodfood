@@ -1,12 +1,23 @@
-.about-us-intro {
+.intro-content {
   padding: 2rem 0;
 }
 
-.about-us-intro figure {
+.intro-content figure {
   width: 100%;
 }
 
-.about-us-intro figure img {
+.intro-content figure img {
   width: 100%;
   padding: 2rem 0;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+  }
 }

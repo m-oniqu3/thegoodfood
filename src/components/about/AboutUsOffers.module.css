@@ -1,0 +1,16 @@
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .offers-heading {
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 2rem;
+    place-items: center;
+  }
+
+  .offers-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
