@@ -38,6 +38,11 @@
   line-height: 100%;
   font-size: 2rem;
   color: var(--white);
+  padding-bottom: 1rem;
+}
+
+.tgif-info .heading {
+  max-width: 200px;
 }
 
 .tgif-info .heading span {
@@ -52,4 +57,24 @@
 
 .tgif-info p {
   color: var(--white);
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .tgif-info .heading {
+    font-size: 3rem;
+    max-width: 400px;
+  }
+
+  .tgif-info .heading span {
+    font-size: 6.5rem;
+  }
+  .tgif-info :nth-child(2) span {
+    font-size: 1.7rem;
+  }
+
+  .tgif-info {
+    max-width: 350px;
+  }
 }

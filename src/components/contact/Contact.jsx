@@ -15,21 +15,21 @@ const Contact = () => {
   );
   return (
     <Background url={greyBg}>
-      <section className={styled.contact} id="contact">
-        <Wrapper>
-          <figure>
-            <img src={spices} alt="Three small containers of spices" />
-          </figure>
-
-          <article>
-            <Heading text={text} className="heading-md" />
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              nihil sit consectetur minus dolor culpa. At eos laudantium
-              consequatur tenetur?
-            </p>
-          </article>
-
+      <Wrapper>
+        <section className={styled.contact} id="contact">
+          <div>
+            <figure>
+              <img src={spices} alt="Three small containers of spices" />
+            </figure>
+            <article>
+              <Heading text={text} className="heading-md" />
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                nihil sit consectetur minus dolor culpa. At eos laudantium
+                consequatur tenetur?
+              </p>
+            </article>
+          </div>
           <form className={styled.form}>
             <label htmlFor="name">Your Name</label>
             <input type="text" name="name" />
@@ -41,9 +41,9 @@ const Contact = () => {
             <textarea name="message" rows="5" cols="20" />
             <br />
             <Button>Send</Button>
-          </form>
-        </Wrapper>
-      </section>
+          </form>{" "}
+        </section>
+      </Wrapper>
     </Background>
   );
 };
