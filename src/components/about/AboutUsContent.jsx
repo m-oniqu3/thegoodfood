@@ -10,9 +10,10 @@ const AboutUsContent = () => {
     <section className={styled["about-us-content"]}>
       <Wrapper>
         <div className={styled.content}>
-          <figure>
+          <figure className={styled.plate}>
             <img src={whitePlate} alt="A plate of salad with sauce " />
           </figure>
+
           <article>
             <Heading
               text={
@@ -28,15 +29,13 @@ const AboutUsContent = () => {
               aenean. Ut egestas odio pellentesque aenean. Mattis eu felis
               porttitor pretium.
             </p>
-
             <p className="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
               in sit sit faucibus. Tincidunt
             </p>
-
-            <figure>
+            <figure className={styled.pizza}>
               <img src={pizza} alt="Pizza" />
-            </figure>
+            </figure>{" "}
           </article>
         </div>
       </Wrapper>

@@ -21,3 +21,11 @@
     place-items: center;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro-content {
+    grid-template-columns: 40% 35%;
+    place-items: center;
+    place-content: center space-evenly;
+  }
+}
