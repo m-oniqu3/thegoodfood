@@ -2,7 +2,7 @@ import React from "react";
 
 const Background = (props) => {
   const background = {
-    backgroundImage: `url(${props.url})`,
+    background: `linear-gradient(0deg, rgba(244, 243, 243, 0.496), rgba(244, 243, 243, 0.496)), url(${props.url})`,
     backgroundPosition: "center",
     height: "100%",
     backgroundSize: "cover",

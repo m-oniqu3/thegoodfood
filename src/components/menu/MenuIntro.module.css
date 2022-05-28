@@ -13,3 +13,15 @@
 .menu-intro article {
   padding: 2rem 0;
 }
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .menu-intro figure {
+    height: 300px;
+  }
+  .menu-intro figure img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

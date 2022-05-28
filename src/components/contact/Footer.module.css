@@ -17,14 +17,20 @@ h2 {
   font-size: 1.5rem;
 }
 
-footer ul {
+.footer-content ul {
   list-style: none;
   padding: 0.5rem 0 1.5rem;
 }
 
-footer a {
+.footer-content a {
   text-decoration: none;
   color: inherit;
+}
+
+.footer-content a:hover {
+  color: var(--green);
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .socials {
@@ -33,4 +39,14 @@ footer a {
   justify-content: space-between;
   margin-top: 1rem;
   width: 70%;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr;
+    gap: 1rem;
+  }
 }

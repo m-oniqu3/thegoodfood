@@ -1,7 +1,7 @@
 .header {
   height: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://images.unsplash.com/photo-1516684542079-927175cedbb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    url("https://images.unsplash.com/photo-1554998171-89445e31c52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1239&q=80");
   background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,7 @@
 .header-intro {
   padding: 10rem 0 15rem;
   width: 85%;
+  max-width: 300px;
 }
 
 .header-intro h1,
@@ -40,4 +41,41 @@
   text-transform: capitalize;
   margin: 1rem 0;
   line-height: 160%;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  .header-intro {
+    margin-left: auto;
+    width: 50%;
+    max-width: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .header-intro h1 {
+    font-size: 4rem;
+  }
+
+  .header-intro span {
+    font-size: 7rem;
+  }
+
+  .header {
+    background-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-intro {
+    width: 40%;
+  }
+
+  .header-intro h1 {
+    font-size: 5rem;
+  }
+
+  .header-intro span {
+    font-size: 8.5rem;
+  }
 }

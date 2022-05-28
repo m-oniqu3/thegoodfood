@@ -63,3 +63,9 @@
     backdrop-filter: none;
   }
 }
+
+@media (min-width: 1024px) {
+  .links {
+    width: 40%;
+  }
+}

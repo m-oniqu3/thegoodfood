@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "./AboutUsOffers.module.css";
 import Heading from "../header/Heading";
 import Wrapper from "../helpers/Wrapper";
 import Offers from "./Offers";
@@ -50,15 +51,18 @@ const AboutUsOffers = () => {
     <section>
       <Wrapper>
         <article>
-          <p className="paragraph">
-            Lorem ipsum dolor sit amet, sit faucibus in sit consectetur
-            adipiscing elit sit faucibus. Faucibus in sit sit faucibus.
-            Tincidunt cras sit viverra curabitur lectus
-          </p>
-          <div style={space}>
-            <Heading text={headingText} className="heading-md" />
+          <div className={styled["offers-heading"]}>
+            <p className="paragraph">
+              Lorem ipsum dolor sit amet, sit faucibus in sit consectetur
+              adipiscing elit sit faucibus. Faucibus in sit sit faucibus.
+              Tincidunt cras sit viverra curabitur lectus
+            </p>
+            <div style={space}>
+              <Heading text={headingText} className="heading-md" />
+            </div>
           </div>
-          <section>
+
+          <section className={styled["offers-content"]}>
             <Offers
               icon={<GiFarmTractor size="40px" />}
               text={offer1}

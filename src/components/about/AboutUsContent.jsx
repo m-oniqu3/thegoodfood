@@ -9,34 +9,35 @@ const AboutUsContent = () => {
   return (
     <section className={styled["about-us-content"]}>
       <Wrapper>
-        <figure>
-          <img src={whitePlate} alt="A plate of salad topped with salmon " />
-        </figure>
-        <article>
-          <Heading
-            text={
-              <>
-                serving you <span> good food</span> fast
-              </>
-            }
-            className="heading-md"
-          />
-          <p className="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
-            sit sit faucibus. Tincidunt cras sit viverra curabitur lectus
-            aenean. Ut egestas odio pellentesque aenean. Mattis eu felis
-            porttitor pretium.
-          </p>
-
-          <p className="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
-            sit sit faucibus. Tincidunt
-          </p>
-
-          <figure>
-            <img src={pizza} alt="Pizza" />
+        <div className={styled.content}>
+          <figure className={styled.plate}>
+            <img src={whitePlate} alt="A plate of salad with sauce " />
           </figure>
-        </article>
+
+          <article>
+            <Heading
+              text={
+                <>
+                  serving you <span> good food</span> fast
+                </>
+              }
+              className="heading-md"
+            />
+            <p className="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+              in sit sit faucibus. Tincidunt cras sit viverra curabitur lectus
+              aenean. Ut egestas odio pellentesque aenean. Mattis eu felis
+              porttitor pretium.
+            </p>
+            <p className="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+              in sit sit faucibus. Tincidunt
+            </p>
+            <figure className={styled.pizza}>
+              <img src={pizza} alt="Pizza" />
+            </figure>{" "}
+          </article>
+        </div>
       </Wrapper>
     </section>
   );

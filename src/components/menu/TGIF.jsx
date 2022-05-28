@@ -8,9 +8,6 @@ const TGIF = () => {
   return (
     <section>
       <section className={styled["tgif-bg"]}>
-        <figure>
-          <img src={blob} alt="Green background" />
-        </figure>
         <Wrapper>
           <article className={styled["tgif-info"]}>
             <h1 className={styled.heading}>
@@ -30,3 +27,8 @@ const TGIF = () => {
 };
 
 export default TGIF;
+
+/* 
+        <figure>
+          <img src={blob} alt="Green background" />
+        </figure>*/

@@ -10,6 +10,7 @@ const Header = () => {
       <Wrapper>
         <Navbar />
 
+        {/* //todo change heading to good food good life*/}
         <article className={styled["header-intro"]}>
           <h1>
             we eating
