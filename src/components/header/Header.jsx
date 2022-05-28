@@ -6,7 +6,7 @@ import Button from "../button/Button";
 
 const Header = () => {
   return (
-    <header className={styled.header}>
+    <header className={styled.header} id="home">
       <Wrapper>
         <Navbar />
 

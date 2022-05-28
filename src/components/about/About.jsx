@@ -9,7 +9,7 @@ const About = () => {
   const about = { padding: "3rem 0 2rem" };
 
   return (
-    <section>
+    <section id="about">
       <Background url={greyBg}>
         <div style={about}>
           <AboutUsIntro />

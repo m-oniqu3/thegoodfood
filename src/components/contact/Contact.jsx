@@ -15,7 +15,7 @@ const Contact = () => {
   );
   return (
     <Background url={greyBg}>
-      <section className={styled.contact}>
+      <section className={styled.contact} id="contact">
         <Wrapper>
           <figure>
             <img src={spices} alt="Three small containers of spices" />

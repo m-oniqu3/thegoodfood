@@ -8,7 +8,7 @@ import MenuItems from "./MenuItems";
 
 const Menu = () => {
   return (
-    <section>
+    <section id="menu">
       <Background url={darkGreyBg}>
         <MenuIntro />
         <MenuItems />

@@ -2,11 +2,64 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  /* position: relative; */
+  height: 10vh;
 }
 
 .navbar p {
   font-family: "Paytone One", sans-serif;
   font-size: 1.8rem;
+  color: var(--white);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  list-style: none;
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.316);
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+
+.links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.links a:hover {
   color: var(--green);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .icon {
+    display: none;
+  }
+
+  .links {
+    position: relative;
+    top: 0;
+    background: none;
+    justify-content: space-between;
+    width: 50%;
+    backdrop-filter: none;
+  }
 }
