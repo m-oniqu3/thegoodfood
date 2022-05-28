@@ -4,9 +4,9 @@
 
 .download figure {
   width: 100%;
-  overflow: hidden;
   padding: 4rem 0;
-  margin: 3rem 0;
+  margin: auto;
+  max-width: 400px;
 }
 
 .download figure img {
@@ -19,4 +19,27 @@
 
 .download-info :first-child {
   padding: 1rem 0;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .download {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    place-items: center;
+  }
+
+  .download figure {
+    position: relative;
+    left: -80px;
+  }
+
+  .download figure img {
+    transform: scale(1.5);
+  }
+  .download-info {
+    text-align: left;
+  }
 }

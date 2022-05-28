@@ -60,4 +60,8 @@
   .header-intro span {
     font-size: 7rem;
   }
+
+  .header {
+    background-position: center;
+  }
 }

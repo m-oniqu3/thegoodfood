@@ -37,9 +37,10 @@
   .content article figure img {
     transform: scale(1.3);
   }
+
   .content figure {
     position: absolute;
     top: -20px;
-    right: -300px;
+    right: -320px;
   }
 }

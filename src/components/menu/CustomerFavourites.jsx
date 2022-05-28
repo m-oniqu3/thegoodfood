@@ -40,7 +40,7 @@ const CustomerFavourites = () => {
           </p>
         </article>
 
-        <section>{faves}</section>
+        <section className={styled["faves-container"]}>{faves}</section>
       </Wrapper>
     </section>
   );

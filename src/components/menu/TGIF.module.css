@@ -1,12 +1,15 @@
 .tgif-bg {
-  background-image: url("https://images.unsplash.com/photo-1562059390-a761a084768e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819");
+  background: linear-gradient(
+      0deg,
+      rgba(40, 68, 37, 0.645),
+      rgba(32, 42, 21, 0.474)
+    ),
+    url("https://images.unsplash.com/photo-1562059390-a761a084768e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  overflow: hidden;
-
-  position: relative;
+  padding: 2rem 0;
 }
 
 .tgif-bg figure {
@@ -19,13 +22,12 @@
 .tgif-bg figure img {
   width: 100%;
   transform: scale(1.2);
+  max-width: 500px;
 }
 
 .tgif-info {
-  z-index: 10;
-  position: absolute;
-  top: 15%;
-  width: 55%;
+  padding: 2rem 0;
+  width: 70%;
 }
 
 .tgif-info .heading,
@@ -35,10 +37,19 @@
   text-transform: uppercase;
   line-height: 100%;
   font-size: 2rem;
+  color: var(--white);
 }
 
 .tgif-info .heading span {
   font-size: 4.5rem;
   font-weight: 900;
   color: var(--red);
+}
+
+.tgif-info :nth-child(2) span {
+  color: var(--white);
+}
+
+.tgif-info p {
+  color: var(--white);
 }
