@@ -48,14 +48,14 @@ const AboutUsOffers = () => {
   const paragraph4 =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores sapiente alias enim, repellat omnis ullam voluptatem.";
   return (
-    <section>
+    <section className={styled["about-offers"]}>
       <Wrapper>
         <article>
           <div className={styled["offers-heading"]}>
             <p className="paragraph">
               Lorem ipsum dolor sit amet, sit faucibus in sit consectetur
               adipiscing elit sit faucibus. Faucibus in sit sit faucibus.
-              Tincidunt cras sit viverra curabitur lectus
+              Tincidunt cras sit viverra
             </p>
             <div style={space}>
               <Heading text={headingText} className="heading-md" />

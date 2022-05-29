@@ -23,4 +23,13 @@ body {
   line-height: 160.5%;
   text-transform: capitalize;
   padding: 1rem 0;
+  font-weight: 300;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .paragraph {
+    font-size: 1.2rem;
+  }
 }

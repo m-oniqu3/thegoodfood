@@ -14,7 +14,7 @@ const Download = () => {
 
   const smlheading = (
     <>
-      find out how you can <span> get meal deals</span>
+      <span> get meal deals</span>
     </>
   );
   return (

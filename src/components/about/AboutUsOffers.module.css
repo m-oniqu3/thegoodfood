@@ -1,9 +1,13 @@
 /* Media Queries */
 
 @media (min-width: 600px) {
+  .about-offers {
+    padding: 2rem 0;
+  }
+
   .offers-heading {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     place-items: center;
   }
@@ -12,5 +16,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }

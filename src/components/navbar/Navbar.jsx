@@ -13,7 +13,7 @@ const Navbar = () => {
   //function to show the menu when the window resizes
   useEffect(() => {
     function showItems() {
-      if (window.innerWidth > 700) {
+      if (window.innerWidth > 600) {
         setShowNav(true);
       } else if (showNav) {
         setShowNav(false);

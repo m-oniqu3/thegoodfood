@@ -43,3 +43,11 @@
     text-align: left;
   }
 }
+
+@media (min-width: 1024px) {
+  .download {
+    padding: 5rem 0;
+    grid-template-columns: 40% 30%;
+    place-content: center space-evenly;
+  }
+}

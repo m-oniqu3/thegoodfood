@@ -41,7 +41,7 @@ const Contact = () => {
             <textarea name="message" rows="5" cols="20" />
             <br />
             <Button>Send</Button>
-          </form>{" "}
+          </form>
         </section>
       </Wrapper>
     </Background>
