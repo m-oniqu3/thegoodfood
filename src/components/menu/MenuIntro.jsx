@@ -3,14 +3,16 @@ import Heading from "../header/Heading";
 import Wrapper from "../helpers/Wrapper";
 import styled from "./MenuIntro.module.css";
 import { GiForkKnifeSpoon } from "react-icons/gi";
+import wings from "../../images/wings.jpg";
 
 const MenuIntro = () => {
-  const url =
-    "https://images.unsplash.com/photo-1543353071-087092ec393a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774";
   return (
     <section className={styled["menu-intro"]}>
       <figure>
-        <img src={url} alt="A pizza" />
+        <img
+          src={wings}
+          alt="Hot wings created by timolina - www.freepik.com"
+        />
       </figure>
       <Wrapper>
         <article>

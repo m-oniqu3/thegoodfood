@@ -49,7 +49,7 @@
 
 /* Media Queries */
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .icon {
     display: none;
   }
