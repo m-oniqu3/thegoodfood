@@ -49,17 +49,17 @@
 
 /* Media Queries */
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   .icon {
     display: none;
   }
 
   .links {
     position: relative;
-    top: 0;
+    top: 0px;
     background: none;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
     backdrop-filter: none;
   }
 }

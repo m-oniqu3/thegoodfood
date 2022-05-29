@@ -13,10 +13,9 @@ const Header = () => {
         {/* //todo change heading to good food good life*/}
         <article className={styled["header-intro"]}>
           <h1>
-            we eating
-            <span> good</span>
+            <span> good</span> food good <span>life</span>
           </h1>
-          <p>
+          <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             perferendis exercitationem iste quia deserunt fugiat corrupti,
             repudiandae praesentium. Quam reprehenderit earum odit nobis porro

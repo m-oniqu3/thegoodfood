@@ -8,6 +8,8 @@
   justify-content: space-evenly;
   gap: 1rem;
   flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .courses * {
@@ -26,7 +28,6 @@
   display: grid;
   grid-template-columns: 80% 20%;
   width: 100%;
-  /* gap: 1rem; */
   margin: 1rem 0;
 }
 
@@ -48,10 +49,34 @@
 }
 
 /* Media Queries */
+
 @media (min-width: 600px) {
   .menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .courses * {
+    font-size: 1.5rem;
+  }
+
+  .meal-info b,
+  .price * {
+    font-size: 1.2rem;
+  }
+
+  .meal-info small {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    padding: 3rem 0;
+    grid-template-columns: 40% 40%;
+    place-content: center space-evenly;
   }
 }

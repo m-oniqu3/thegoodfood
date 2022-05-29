@@ -14,6 +14,11 @@
   padding: 2rem 0;
 }
 
+.menu-intro article p {
+  padding: 2rem 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
 /* Media Queries */
 
 @media (min-width: 600px) {
