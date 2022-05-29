@@ -13,7 +13,7 @@
 
 /* Media Queries */
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .intro-content {
     display: grid;
     grid-template-columns: 1fr 1fr;

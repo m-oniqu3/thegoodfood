@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "./TGIF.module.css";
 import Wrapper from "../helpers/Wrapper";
-import blob from "../../images/blob.png";
+
 import Heading from "../header/Heading";
 
 const TGIF = () => {

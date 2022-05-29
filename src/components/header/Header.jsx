@@ -3,6 +3,7 @@ import styled from "./Header.module.css";
 import Navbar from "../navbar/Navbar";
 import Wrapper from "../helpers/Wrapper";
 import Button from "../button/Button";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -22,7 +23,11 @@ const Header = () => {
             amet?
           </p>
 
-          <Button>See Menu</Button>
+          <Button>
+            <Link to="#menu" smooth>
+              see menu
+            </Link>
+          </Button>
         </article>
       </Wrapper>
     </header>
