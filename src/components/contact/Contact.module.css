@@ -32,7 +32,7 @@ textarea {
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 2rem;
-    place-items: center;
+    place-items: center normal;
     place-content: center space-evenly;
     padding: 4rem 0;
   }
