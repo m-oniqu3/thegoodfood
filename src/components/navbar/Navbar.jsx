@@ -25,6 +25,20 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", showItems);
   }, [showNav]);
 
+  useEffect(() => {
+    //if the window is greater then 767 when the component first mounts, show the menu
+    if (window.innerWidth > 767) {
+      setShowNav(true);
+    }
+
+    return () => {
+      //if the window is less then 767 when the component unmounts, hide the menu
+      if (window.innerWidth < 767) {
+        setShowNav(false);
+      }
+    };
+  }, []);
+
   return (
     <nav className={styled.navbar}>
       <p>the good food</p>
