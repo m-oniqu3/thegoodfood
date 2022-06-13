@@ -46,6 +46,10 @@
 
 /* Media Queries */
 @media (min-width: 768px) {
+  .header {
+    background-position: center;
+  }
+
   .header-intro {
     margin-left: auto;
     width: 55%;
@@ -63,6 +67,10 @@
 }
 
 @media (min-width: 1024px) {
+  .header {
+    height: 120vh;
+  }
+
   .header-intro {
     width: 40%;
   }

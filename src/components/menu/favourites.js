@@ -17,7 +17,7 @@ export const favorites = [
   },
   {
     id: 3,
-    name: "double deluxe  ",
+    name: "double deluxe burger",
     price: 1180,
     url: burger,
   },
