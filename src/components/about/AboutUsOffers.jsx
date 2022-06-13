@@ -41,21 +41,23 @@ const AboutUsOffers = () => {
   const space = { padding: "1rem 0" };
 
   const paragraph1 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores sapiente alias enim, repellat omnis ullam voluptatem ea aliquam necessitatibus.";
+    "We support the local economy to help to create jobs in the community. We pride ourselves in supporting businesses and farmers in the area. We are always on the lookout for new and better ways to help our community. Our locally sourced food is always fresh, tasty and flavourful. ";
   const paragraph2 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores sapiente alias enim.";
-  const paragraph3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+    "We have a passion for serving quality dishes that excite the taste buds. Using the freshest ingredients we take the time to prepare each dish with care. Our attention to detail ensures that every meal is full of flavor and perfectly cooked.";
+  const paragraph3 =
+    "We are known for offering food that is always fresh, using the freshest locally sourced ingredients everytime. We ensure our customers are always getting the best possible product.";
   const paragraph4 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores sapiente alias enim, repellat omnis ullam voluptatem.";
+    "Our staff is attentive and always ready to help. Our restaurant is always clean and organized, making it a pleasant place to eat. Our food is delicious and reasonably priced, making it a great value for customers.";
+
   return (
     <section className={styled["about-offers"]}>
       <Wrapper>
         <article>
           <div className={styled["offers-heading"]}>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, sit faucibus in sit consectetur
-              adipiscing elit sit faucibus. Faucibus in sit sit faucibus.
-              Tincidunt cras sit viverra
+              We offer a wide variety of food items for customers to choose
+              from. There is something for everyone here, whether you are
+              looking for a light meal or a hearty meal.
             </p>
             <div style={space}>
               <Heading text={headingText} className="heading-md" />
