@@ -3,6 +3,8 @@
 @media (min-width: 768px) {
   .about-offers {
     padding: 2rem 0;
+    max-width: 1300px;
+    margin-inline: auto;
   }
 
   .offers-heading {
@@ -11,6 +13,8 @@
     gap: 4rem;
 
   }
+
+
 
   .offers-content {
     display: grid;

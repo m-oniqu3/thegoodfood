@@ -41,7 +41,7 @@ textarea {
 @media (min-width: 1024px) {
 
   .contact {
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 45% 50%;
   }
 
   .form {

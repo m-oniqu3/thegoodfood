@@ -35,7 +35,7 @@ const Download = () => {
           </p>
           <p className="paragraph">
             Download the app today and enjoy the good food restaurant experience
-            to the fullest?
+            to the fullest!
           </p>
           <ImAndroid size="30px" color="lightgrey" />
           &nbsp; &nbsp;&nbsp;

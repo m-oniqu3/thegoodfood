@@ -1,7 +1,7 @@
 .tgif-bg {
   background: linear-gradient(0deg,
-      rgba(40, 68, 37, 0.645),
-      rgba(32, 42, 21, 0.474)),
+      rgba(22, 39, 20, 0.645),
+      rgba(51, 91, 9, 0.474)),
     url("../../images/tortilla.jpg");
   background-position: center;
   background-size: cover;
@@ -43,6 +43,7 @@
 
 .tgif-info p {
   color: var(--white);
+  font-weight: 500;
 }
 
 /* Media Queries */
