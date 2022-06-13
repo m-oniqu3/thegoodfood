@@ -34,9 +34,11 @@ const CustomerFavourites = () => {
     <section className={styled.favourites}>
       <Wrapper>
         <article className={styled.intro}>
-          <Heading text={text} className="heading-sml" />
+          <Heading text={text} className="heading-md" />
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Some of our most popular dishes include the Barbecue Pizza, the
+            Cream Cheese Pasta, and the Double Deluxe Burger. Our guests can't
+            get enough of these classic mouth-watering dishes!
           </p>
         </article>
 

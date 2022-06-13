@@ -47,7 +47,18 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2>Find us on</h2>
+            <h2>Find us </h2>
+            <article className={styled.details}>
+              <p>
+                Call <span>425-251-4502</span>
+              </p>
+              <p>
+                Address <span>28 Hope Road, Kingston</span>
+              </p>
+              <p>
+                Mail Us <span>tgf@gmail.com</span>
+              </p>
+            </article>
 
             <div className={styled.socials}>
               <ImAndroid size="25px" />
