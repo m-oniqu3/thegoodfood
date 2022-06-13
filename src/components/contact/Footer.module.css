@@ -41,12 +41,40 @@ h2 {
   width: 70%;
 }
 
+.details p {
+  font-weight: bold;
+
+}
+
+.details span {
+  font-weight: 300;
+  padding-left: 1rem;
+}
+
 /* Media Queries */
 
-@media (min-width: 600px) {
+@media (min-width:600px) {
+
+
+
+  .details p,
+  .details span,
+  .footer-content a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
   .footer-content {
     display: grid;
-    grid-template-columns: 55% 1fr 1fr;
+    grid-template-columns: 45% auto auto;
     gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 35% auto auto;
+    gap: 2rem;
   }
 }
