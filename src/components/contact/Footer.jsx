@@ -14,8 +14,9 @@ const Footer = () => {
           <article>
             <p className={styled.logo}>the good food</p>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-              autem sit libero est sequi dolores?
+              If you want an amazing dining experience, you need to come to The
+              Good Food Restaurant. We have it all – great food, wonderful
+              service, and a comfortable atmosphere.
             </p>
           </article>
 

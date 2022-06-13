@@ -24,14 +24,14 @@ const AboutUsContent = () => {
               className="heading-md"
             />
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              in sit sit faucibus. Tincidunt cras sit viverra curabitur lectus
-              aenean. Ut egestas odio pellentesque aenean. Mattis eu felis
-              porttitor pretium.
+              We're always serving quality food fast that is always cooked to
+              perfection. With a menu of delicious options, and friendly staff
+              visit us if you are looking for a great meal.
             </p>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              in sit sit faucibus. Tincidunt
+              Serving good food fast is our game. With fresh and high-quality
+              ingredients in our dishes, you can be sure you're getting a
+              nutritious and delicious meal when you eat here.
             </p>
             <figure className={styled.pizza}>
               <img src={pizza} alt="Pizza" />

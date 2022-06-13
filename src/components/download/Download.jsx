@@ -14,7 +14,7 @@ const Download = () => {
 
   const smlheading = (
     <>
-      <span> get meal deals</span>
+      <span>earn loyalty points</span>
     </>
   );
   return (
@@ -28,9 +28,14 @@ const Download = () => {
           <Heading text={text} className="heading-md" />
           <Heading text={smlheading} className="heading-sml" />
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            neque rerum necessitatibus blanditiis nulla provident consequatur,
-            vel expedita fuga non!
+            Our new TGF app is a great way to keep track of your favourite
+            dishes and get recommendations on what to order next. Plus, you can
+            earn loyalty points every time you order through the app, which can
+            be redeemed for freebies and discounts.
+          </p>
+          <p className="paragraph">
+            Download the app today and enjoy the good food restaurant experience
+            to the fullest!
           </p>
           <ImAndroid size="30px" color="lightgrey" />
           &nbsp; &nbsp;&nbsp;

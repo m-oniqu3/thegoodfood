@@ -11,16 +11,16 @@ const Header = () => {
       <Wrapper>
         <Navbar />
 
-        {/* //todo change heading to good food good life*/}
         <article className={styled["header-intro"]}>
           <h1>
             <span> good</span> food good <span>life</span>
           </h1>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            perferendis exercitationem iste quia deserunt fugiat corrupti,
-            repudiandae praesentium. Quam reprehenderit earum odit nobis porro
-            amet?
+            If you are ever in the mood for some good food, The Good Food is
+            theplace for you. We offer a variety mouth-watering meals that are
+            sure to please even the pickiest of eaters. With our amazing food
+            and welcoming staff, we will make sure that you have a great
+            experience every time.
           </p>
 
           <Button>

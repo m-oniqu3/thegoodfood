@@ -13,6 +13,7 @@
   width: 100%;
   transform: scale(1.3);
 }
+
 .download-info {
   text-align: center;
 }
@@ -39,6 +40,7 @@
   .download figure img {
     transform: scale(1.5);
   }
+
   .download-info {
     text-align: left;
   }
@@ -47,7 +49,7 @@
 @media (min-width: 1024px) {
   .download {
     padding: 5rem 0;
-    grid-template-columns: 40% 30%;
+    grid-template-columns: 40% 40%;
     place-content: center space-evenly;
   }
 }

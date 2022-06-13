@@ -30,16 +30,22 @@ textarea {
 @media (min-width: 700px) {
   .contact {
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    place-items: center;
+    place-items: center normal;
     place-content: center space-evenly;
     padding: 4rem 0;
   }
 }
 
 @media (min-width: 1024px) {
+
+  .contact {
+    grid-template-columns: 45% 50%;
+  }
+
   .form {
     width: 75%;
+    margin: auto;
   }
 }
