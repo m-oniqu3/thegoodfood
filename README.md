@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# The Good Food Restaurant
+
+This is a website for The Good Food Restaurant made with react.
+
+### Preview
+
+![The Good Food](/src/images/Web%20capture_13-6-2022_181540_localhost.jpeg)
+
+## Description
+
+If you want an amazing dining experience, you need to come to The Good Food Restaurant. We have it all – great food, wonderful service, and a comfortable atmosphere. Whether you’re looking for a romantic evening out or a night with friends, you’ll find what you’re looking for here.
+
+This website displays just that. It provides information on why the restaurant was established, and what it offers to its customers. In addition, it provides a list some of the dishes on the menu, customer favourites and a section where customers can contact the restaurant.
+
+## Motivation
+
+## Technologies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Challenges
 
-In the project directory, you can run:
+Whilst building this project I faced a few challenges. I had a difficult time creating the navbar with react.
 
-### `npm start`
+- If a user opened the website on desktop, the links in the menu would not show, however, I was able to solve it by using the useEffect hook.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- I also had a hard time working on the customer favourites section. Getting the design to transition from the mobile design to the desktop design proved difficult for me. It took me a few tries to get it right, and even with the end result I was not able to get the design looking like the original but it is pretty similar and it works for now
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Design File
 
-### `npm test`
+[Figma Design File](https://www.figma.com/file/T1bxEjwZDoPu19u9I9iQAF/the-good-food?node-id=303%3A2)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this project on your local machine download the project files, run
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install` then `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will run the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.The page will reload when you make changes. You may also see any lint errors in the console.
