@@ -24,8 +24,9 @@
 
 @media (min-width: 1024px) {
   .intro-content {
-    grid-template-columns: 40% 35%;
+    grid-template-columns: 40% 50%;
     place-items: center;
     place-content: center space-evenly;
+    padding-bottom: 3rem;
   }
 }
