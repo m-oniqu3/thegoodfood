@@ -8,15 +8,14 @@
   .offers-heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    place-items: center;
+    gap: 4rem;
+
   }
 
   .offers-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    max-width: 1000px;
+    column-gap: 4rem;
     margin: 0 auto;
   }
 }

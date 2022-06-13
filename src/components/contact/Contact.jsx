@@ -24,9 +24,9 @@ const Contact = () => {
             <article>
               <Heading text={text} className="heading-md" />
               <p className="paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                nihil sit consectetur minus dolor culpa. At eos laudantium
-                consequatur tenetur?
+                If you're looking for a delicious meal and a good time, you'll
+                want to come to the good food restaurant. We would love to hear
+                from you and answer any questions you may have.
               </p>
             </article>
           </div>

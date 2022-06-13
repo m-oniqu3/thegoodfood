@@ -13,12 +13,13 @@
 
 /* Media Queries */
 
-@media (min-width: 650px) {
+@media (min-width: 768px) {
   .intro-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     place-items: center;
+
   }
 }
 

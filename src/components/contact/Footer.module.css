@@ -46,7 +46,7 @@ h2 {
 @media (min-width: 600px) {
   .footer-content {
     display: grid;
-    grid-template-columns: 40% 1fr 1fr;
+    grid-template-columns: 55% 1fr 1fr;
     gap: 1rem;
   }
 }

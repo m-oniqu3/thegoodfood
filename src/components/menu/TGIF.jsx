@@ -15,9 +15,12 @@ const TGIF = () => {
             </h1>
             <Heading text={<span>taco fridays</span>} className="heading-sml" />
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur recusandae culpa voluptates dolorum, labore ipsa quos
-              enim quo architecto aperiam.
+              If you're looking for something different to do this Friday night,
+              come to our restaurant and try our new specialty tacos! They're
+              made with fresh, delicious ingredients and served with a smile.
+              Our friendly staff will make sure you have a great experience, and
+              you'll definitely want to come back for more. TGF'S TGIF is a
+              great way to start the weekend, and the best way to end it.
             </p>
           </article>
         </Wrapper>

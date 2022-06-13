@@ -1,9 +1,7 @@
 .tgif-bg {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(40, 68, 37, 0.645),
-      rgba(32, 42, 21, 0.474)
-    ),
+      rgba(32, 42, 21, 0.474)),
     url("../../images/tortilla.jpg");
   background-position: center;
   background-size: cover;
@@ -12,22 +10,10 @@
   padding: 2rem 0;
 }
 
-.tgif-bg figure {
-  width: 100%;
-  position: relative;
-  left: -20%;
-  top: 10%;
-}
-
-.tgif-bg figure img {
-  width: 100%;
-  transform: scale(1.2);
-  max-width: 500px;
-}
 
 .tgif-info {
   padding: 2rem 0;
-  width: 70%;
+
 }
 
 .tgif-info .heading,
@@ -70,11 +56,12 @@
   .tgif-info .heading span {
     font-size: 6.5rem;
   }
+
   .tgif-info :nth-child(2) span {
     font-size: 1.7rem;
   }
 
   .tgif-info {
-    max-width: 350px;
+    max-width: 550px;
   }
 }
