@@ -16,11 +16,11 @@ const Header = () => {
             <span> good</span> food good <span>life</span>
           </h1>
           <p className="paragraph">
-            If you are ever in the mood for some good food, The Good Food is
-            theplace for you. We offer a variety mouth-watering meals that are
-            sure to please even the pickiest of eaters. With our amazing food
-            and welcoming staff, we will make sure that you have a great
-            experience every time.
+            If you are ever in the mood for some good food, The Good Food is the
+            place for you. We offer a variety mouth-watering meals that are sure
+            to please even the pickiest of eaters. With our amazing food and
+            welcoming staff, we will make sure that you have a great experience
+            every time.
           </p>
 
           <Button>

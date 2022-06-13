@@ -34,7 +34,7 @@ const CustomerFavourites = () => {
     <section className={styled.favourites}>
       <Wrapper>
         <article className={styled.intro}>
-          <Heading text={text} className="heading-sml" />
+          <Heading text={text} className="heading-md" />
           <p className="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
