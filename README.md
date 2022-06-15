@@ -2,7 +2,7 @@
 
 **This is a website for The Good Food Restaurant made with react.**
 
-[The Good Food Website - Live Site](thegoodfood.vercel.app/)
+[The Good Food Website - Live Site](https://thegoodfood.vercel.app/)
 
 ### **Preview**
 
