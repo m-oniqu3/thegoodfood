@@ -27,7 +27,7 @@ This project was built using **React** and was bootstrapped with [Create React A
 
 Whilst building this project I faced a few challenges.
 
-- I had a difficult time creating the navbar with react. If a user opened the website on desktop, the links in the menu would not show until the user resized the menu. This made for a bad user experience, however, I was able to solve this by using the useEffect hook and a conditional statement.
+- I had a difficult time creating the navbar with react. If a user opened the website on desktop, the links in the menu would not show until the user resized the website. This made for a bad user experience, however, I was able to solve this by using the useEffect hook and a conditional statement.
 
 - I also had a hard time working on the customer favourites section. Getting the design to transition from the mobile design to the desktop design proved difficult for me. It took me a few tries to get it right, and even with the end result I was not able to get the design looking like the [original](https://www.figma.com/file/T1bxEjwZDoPu19u9I9iQAF/the-good-food?node-id=303%3A2) but it is pretty similar and the result is satusfactory.
 
