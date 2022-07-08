@@ -4,7 +4,7 @@
 
 [The Good Food Website - Live Site](https://thegoodfood.vercel.app/)
 
-### **Preview**
+## **Preview**
 
 ![The Good Food](/src/images/Web%20capture_13-6-2022_181540_localhost.jpeg)
 
