@@ -19,7 +19,7 @@ This website displays just that. It provides information on why the restaurant w
 I first built this project using [HTML and CSS](https://github.com/m-oniqu3/thegoodfoodproject) but managing all the different sections were a bit difficult. At the time I was not practicing using semantic HTML, therefore my code was not organized and all the sections were just `div` tags.
 So I decided to rebuild the project using react so I could divide the file into smaller, more manageable components.
 
-## Technologies
+## Tools and Technologies
 
 This project was built using **React** and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
